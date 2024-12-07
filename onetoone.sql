@@ -1,7 +1,7 @@
 CREATE TABLE customers (
         customer_id BIGSERIAL PRIMARY KEY,
-        name VARCHAR(35),
-        last_name VARCHAR(35));
+        name VARCHAR(32),
+        last_name VARCHAR(32));
 CREATE TABLE investors (
         investor_id BIGSERIAL PRIMARY KEY,
         customer_id BIGSERIAL UNIQUE,

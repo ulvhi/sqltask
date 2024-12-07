@@ -1,9 +1,9 @@
 CREATE TABLE students (
     student_id BIGSERIAL PRIMARY KEY,
-    student_name VARCHAR(35));
+    student_name VARCHAR(32));
 CREATE TABLE teachers (
     teacher_id BIGSERIAL PRIMARY KEY,
-    teacher_name VARCHAR(35));
+    teacher_name VARCHAR(32));
 CREATE TABLE students_teachers (
     student_id BIGSERIAL,
     teacher_id BIGSERIAL,
