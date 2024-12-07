@@ -6,6 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="1d602085-7632-472e-b9e5-d0f244e34f74" name="Changes" comment="">
       <change afterPath="$PROJECT_DIR$/../JPA/src/main/java/com/jpa/dao/entity/LoanerEntity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/manytomany.sql" beforeDir="false" afterPath="$PROJECT_DIR$/manytomany.sql" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -13,7 +14,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectColorInfo"><![CDATA[{
   "associatedIndex": 1
@@ -28,6 +29,10 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "main",
     "kotlin-language-version-configured": "true",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
     "vue.rearranger.settings.migration": "true"
   },
@@ -53,7 +58,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1733597867624</updated>
-      <workItem from="1733597868799" duration="149000" />
+      <workItem from="1733597868799" duration="501000" />
     </task>
     <servers />
   </component>

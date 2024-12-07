@@ -7,6 +7,6 @@ CREATE TABLE teachers (
 CREATE TABLE students_teachers (
     student_id BIGSERIAL,
     course_id BIGSERIAL,
-    PRIMARY KEY (student_id, course_id),
+    PRIMARY KEY (student_id, teachers_id),
     FOREIGN KEY (student_id) REFERENCES students(student_id),
-    FOREIGN KEY (course_id) REFERENCES teachers(teacher_id));
+    FOREIGN KEY (teacher_id) REFERENCES teachers(teacher_id));
